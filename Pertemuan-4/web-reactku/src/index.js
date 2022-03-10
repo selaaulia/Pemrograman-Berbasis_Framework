@@ -1,12 +1,10 @@
 import React from 'react';
-import ReactDOM, { render } from 'react-dom';
+import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
-import Test from './Test';
-import HelloComponent from './HelloComponent';
 import reportWebVitals from './reportWebVitals';
-import Form from './Form';
-
+import BlogPost from './container/BlogPost/BlogPost';
 
 const Hello = () => {
   //return <p>Hello</p>;
@@ -19,17 +17,7 @@ const Hello = () => {
 </div>
 };
 
-// function HelloComponent(){
-//   return HelloComponent
-// }
-
-class StateFullComponent extends React.Component{
-  render(){
-    return<p>StateFullComponent</p>
-  }
-}
-
-ReactDOM.render(<Login />, document.getElementById("root"));
+ReactDOM.render(<BlogPost />, document.getElementById("content"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
