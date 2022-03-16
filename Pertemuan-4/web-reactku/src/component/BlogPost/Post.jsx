@@ -12,6 +12,7 @@ const Post = (props) => {
       <div className="konten-artikel">
         <div className="judul-artikel">{props.judul}</div>
         <p className="isi-artikel">{props.isi}</p>
+        <button className="btn btn-5m btn-warning" onClick={() => props.hapusArtikel(props.idArtikel)}>Hapus</button>
       </div>
     </div>
   );
