@@ -18,7 +18,7 @@ const Hello = () => {
 </div>
 };
 
-ReactDOM.render(<ListMahasiswa />, document.getElementById("content"));
+ReactDOM.render(<BlogPost />, document.getElementById("content"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
