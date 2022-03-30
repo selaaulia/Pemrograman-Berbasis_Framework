@@ -68,7 +68,7 @@ function ProtectedPage() {
             <div class="profile">
                 <div class="overlay">
                     <div class="about d-flex flex-column">
-                        <h4>Welcome!</h4> <span>Pramudya Wibowo<br /></span>
+                        <h4>Welcome!</h4> <span>Sela Aulia Siswanto<br /></span>
                     </div>
                     <ul class="sign-icons">
                         <li onClick={() => {
