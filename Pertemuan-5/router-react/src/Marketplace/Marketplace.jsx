@@ -21,9 +21,9 @@ class Marketplace extends Component {
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="#">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png"
+                            <img src="http://3.bp.blogspot.com/-iDhD0zDbBHc/UiH6fo1pyoI/AAAAAAAAABc/PyF-s1hVoJs/s1600/jasa+pembuatan+toko+online+1.jpg"
                                 alt="" width="30" height="24" className="d-inline-block align-text-middle" />
-                            Marketplace
+                            Shop.id
                         </a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
