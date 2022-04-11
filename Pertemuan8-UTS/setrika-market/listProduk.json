@@ -1,0 +1,60 @@
+{
+    "setrika" : [
+        {
+            "id" : 1,
+            "name" : "Panasonic - Setrika Uap",
+            "type" : "N-WL30VSR",
+            "price" : "1.253.000,00",
+            "stock" : 10,
+            "description" : "Setrika ini didesain untuk Anda yang mengutamakan kenyamanan dalam menyetrika. Dirancang tanpa kabel dan soleplate multi arah, gerakan menyetrika Anda menjadi lebih bebas dan menyenangkan. Saat menggosok, kain bebas tersangkut setrika karena rancangan soleplate yang melengkung ke atas. Dibandingkan dengan setrika konvensional, setrika ini dapat bersandar stabil pada power base-nya sehingga terhindar dari jatuh. Terdapat tiga pengaturan level penyemprotan uap yang dapat berhenti secara otomatis saat setrika diletakkan pada power base. Untuk memanjakan Anda, power base setrika ini dimiringkan 20° sehingga setrika dapat diraih dan diletakkan dengan mudah.",
+            "images" : [
+                {
+                    "id" : "1",
+                    "img" :"se1/se1-a.jpeg"
+                },
+                {
+                    "id" : "2",
+                    "img" :"se1/se1-b.jpeg"
+                },
+                {
+                    "id" : "3",
+                    "img" :"se1/se1-c.jpeg"
+                },
+                {
+                    "id" : "4",
+                    "img" :"se1/se1-d.jpeg"
+                },
+                {
+                    "id" : "5",
+                    "img" :"se1/se1-e.jpeg"
+                }
+            ]
+        },
+        {
+            "id" : 2,
+            "name" : "Philips - Steam & Go",
+            "type" : "G0362/80",
+            "price" : "1.100.000,00",
+            "stock" : 15,
+            "description" : "Steamer Philips berikut ini cocok untuk Anda yang sering bepergian dan butuh setrika ringkas yang bisa masuk bagasi. Dengan bodi ringan dan kabel panjang, setrika ini adalah solusi saat Anda butuh menyetrika di mana saja. Hasil penguapan steamer ini optimal berkat teknologi SmartFlow yang mencegah noda basah dan aman untuk semua kain. Desainnya juga ergonomis sehingga nyaman digenggam. Produk ini pun dilengkapi dengan sikat dan tas penyimpanan tahan panas sehingga praktis dibawa bepergian.",
+            "images" : [
+                {
+                    "id" : 1,
+                    "img" : "se2/se2-a.jpeg"
+                },
+                {
+                    "id" : 2,
+                    "img" : "se2/se2-b.jpeg"
+                },
+                {
+                    "id" : 3,
+                    "img" : "se2/se2-c.jpeg"
+                },
+                {
+                    "id" : 4,
+                    "img" : "se2/se2-d.jpeg"
+                }
+            ]
+        }
+    ]
+}
