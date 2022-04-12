@@ -167,7 +167,11 @@
             "lapisan_alas" : "Antilengket",
             "Size" : "-",
             "Daya" : "400 W",
-            "images" : "se6/se6.jpg"
+            "images" : [
+                {
+                    "id" : 1,
+                    "img" : "se6/se6.jpg"
+                }]
         },
         {
             "id" : 7,
@@ -181,7 +185,11 @@
             "lapisan_alas" : "Antilengket",
             "Size" : "Body: 160 mm x 170 mm x 180 mm・Panjang kabel: 1,8 m・Berat: 0,839 kg",
             "Daya" : "300 W",
-            "images" : "se7/se7.jpeg"
+            "images" : [
+                {
+                    "id" : 1,
+                    "img" : "se7/se7.jpeg"
+                }]
         },
         {
             "id" : 8,
@@ -195,7 +203,11 @@
             "lapisan_alas" : "Ceramic coating",
             "Size" : "Body: 276 mm × 114 mm × 144 mm・Panjang kabel: 2 m・Berat: 0,95 kg",
             "Daya" : "300 W",
-            "images" : "se7/se7.jpg"
+            "images" : [
+                {
+                    "id" : 1,
+                    "img" : "se8/se8.jpg"
+                }]
         },
         {
             "id" : 9,

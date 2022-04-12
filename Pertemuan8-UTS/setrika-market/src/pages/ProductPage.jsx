@@ -1,9 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react';
+import {Outlet} from 'react-router-dom';
 
-export default class ProductPage extends Component {
-  render() {
-    return (
-      <div>ProductPage</div>
-    )
-  }
+const ProductPage = () => {
+  return (
+    <Outlet/>
+  )
 }
+
+export default ProductPage

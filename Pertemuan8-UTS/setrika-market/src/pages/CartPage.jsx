@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class CartPage extends Component {
-  render() {
-    return (
-      <div>CartPage</div>
-    )
-  }
+const CartPage = () => {
+  return (
+    <div>CartPage</div>
+  )
 }
+
+export default CartPage
