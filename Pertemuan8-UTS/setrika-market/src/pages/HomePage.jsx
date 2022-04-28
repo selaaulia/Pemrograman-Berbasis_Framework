@@ -8,18 +8,18 @@ export default class HomePage extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=First slide&bg=373940"
+            src="https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/2018/10/07/322465677.png"
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Welcome to Our Market</h3>
+            <p>get ease life with us</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
+            src="https://s4.bukalapak.com/bukalapak-kontenz-production/content_attachments/28769/w-1480/shutterstock_644074321_1_.jpg.webp"
             alt="Second slide"
           />
 
@@ -31,7 +31,7 @@ export default class HomePage extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
+            src="https://cdn.popmama.com/content-images/post/20181204/img-04122018-124548-800-x-420-pixel-5bb66b52269d415be62f21b11fc13608.jpg"
             alt="Third slide"
           />
 
