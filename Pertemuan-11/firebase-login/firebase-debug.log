@@ -1,0 +1,95 @@
+[debug] [2022-05-24T06:25:06.123Z] ----------------------------------------------------------------------
+[debug] [2022-05-24T06:25:06.127Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SelaAulia\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-24T06:25:06.128Z] CLI Version:   11.0.0
+[debug] [2022-05-24T06:25:06.128Z] Platform:      win32
+[debug] [2022-05-24T06:25:06.129Z] Node Version:  v16.15.0
+[debug] [2022-05-24T06:25:06.144Z] Time:          Tue May 24 2022 13:25:06 GMT+0700 (Indochina Time)
+[debug] [2022-05-24T06:25:06.145Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-24T06:25:06.166Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-24T06:25:06.167Z] > authorizing via signed-in user (1941720196@student.polinema.ac.id)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\SelaAulia\Documents\POLINEMA\Semester 6\Pemograman Berbasis Framework\Pemrograman-Berbasis_Framework\Pertemuan-11\firebase-login
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-05-24T06:25:17.125Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-05-24T06:25:18.333Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-05-24T06:25:18.333Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project fir-login-4f410 (firebase-login) 
+[info] 
+=== Firestore Setup
+[debug] [2022-05-24T06:25:41.924Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/fir-login-4f410/services/firestore.googleapis.com [none]
+[debug] [2022-05-24T06:25:43.489Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/fir-login-4f410/services/firestore.googleapis.com 200
+[debug] [2022-05-24T06:25:43.490Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/fir-login-4f410/services/firestore.googleapis.com [omitted]
+[debug] [2022-05-24T06:25:43.492Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-05-24T06:25:43.493Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-24T06:25:43.648Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Tue, 24 May 2022 06:25:46 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-24T06:25:43.661Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/fir-login-4f410  
+ 
+[debug] [2022-05-24T06:25:44.134Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 24 May 2022 06:25:46 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-24T06:25:44.135Z] database_type: CLOUD_FIRESTORE
+[debug] [2022-05-24T06:25:44.136Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-24T06:25:44.136Z] > authorizing via signed-in user (1941720196@student.polinema.ac.id)
+[debug] [2022-05-24T06:25:44.136Z] [iam] checking project fir-login-4f410 for permissions ["firebase.projects.get"]
+[debug] [2022-05-24T06:25:44.137Z] > refreshing access token with scopes: []
+[debug] [2022-05-24T06:25:44.137Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-24T06:25:44.271Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Tue, 24 May 2022 06:25:47 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-24T06:25:44.284Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-login-4f410:testIamPermissions [none]
+[debug] [2022-05-24T06:25:44.285Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-login-4f410:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-05-24T06:25:45.476Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-login-4f410:testIamPermissions 200
+[debug] [2022-05-24T06:25:45.476Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-login-4f410:testIamPermissions {"permissions":["firebase.projects.get"]}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2022-05-24T06:25:51.753Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/fir-login-4f410/releases pageSize=10&pageToken=
+[debug] [2022-05-24T06:25:53.252Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/fir-login-4f410/releases 200
+[debug] [2022-05-24T06:25:53.252Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/fir-login-4f410/releases {"releases":[{"name":"projects/fir-login-4f410/releases/cloud.firestore","rulesetName":"projects/fir-login-4f410/rulesets/cb3bb4ee-b28b-4c59-9a5a-03fa12dd7ebf","createTime":"2022-05-24T06:24:49.093539Z","updateTime":"2022-05-24T06:24:49.093539Z"}]}
+[debug] [2022-05-24T06:25:53.253Z] Found ruleset: projects/fir-login-4f410/rulesets/cb3bb4ee-b28b-4c59-9a5a-03fa12dd7ebf
+[debug] [2022-05-24T06:25:53.253Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/fir-login-4f410/rulesets/cb3bb4ee-b28b-4c59-9a5a-03fa12dd7ebf [none]
+[debug] [2022-05-24T06:25:54.734Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/fir-login-4f410/rulesets/cb3bb4ee-b28b-4c59-9a5a-03fa12dd7ebf 200
+[debug] [2022-05-24T06:25:54.735Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/fir-login-4f410/rulesets/cb3bb4ee-b28b-4c59-9a5a-03fa12dd7ebf [omitted]
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2022-05-24T06:25:58.576Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-05-24T06:25:58.577Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-24T06:25:58.580Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-05-24T06:25:58.581Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-24T06:25:59.173Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Tue, 24 May 2022 06:26:01 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-24T06:25:59.186Z] >>> HTTP REQUEST GET https://firestore.googleapis.com/v1/projects/fir-login-4f410/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false  
+ 
+[debug] [2022-05-24T06:25:59.191Z] <<< HTTP RESPONSE 200 {"date":"Tue, 24 May 2022 06:26:01 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-24T06:25:59.205Z] >>> HTTP REQUEST GET https://firestore.googleapis.com/v1/projects/fir-login-4f410/databases/(default)/collectionGroups/-/indexes  
+ 
+[debug] [2022-05-24T06:26:01.087Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 24 May 2022 06:26:03 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-24T06:26:01.398Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 24 May 2022 06:26:04 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
