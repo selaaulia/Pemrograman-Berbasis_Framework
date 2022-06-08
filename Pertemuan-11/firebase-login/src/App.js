@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import Login from "./components/Login";
+import { connect } from "react-redux";
+import Home from "./components/Home";
+import PrivateRoute from "./components/PrivateRoute";
 
-function App() {
+function App(props) {
+  const { isAuthenticated, isVerifying } = props;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <>
+      <Routes>
+        <Route
+          element={
+            <PrivateRoute
+              isAuthenticated={isAuthenticated}
+              isVerifying={isVerifying}
+            />
+          }
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <Route path="/" element={<Home />} />
+        </Route>
+        <Route path="/login" element={<Login />} />
+      </Routes>
+    </>
   );
 }
 
-export default App;
+function mapStateToProps(state) {
+  return {
+    isAuthenticated: state.auth.isAuthenticated,
+    isVerifying: state.auth.isVerifying,
+  };
+}
+export default connect(mapStateToProps)(App);
